@@ -135,7 +135,7 @@
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-#define CUSTOM_MACHINE_NAME "3D Printer"
+#define CUSTOM_MACHINE_NAME "Porky's Printer"
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -314,6 +314,7 @@
   #define  DEFAULT_Ki 2.00
   #define  DEFAULT_Kd 66.47
 
+
 #endif // PIDTEMP
 
 //===========================================================================
@@ -380,7 +381,7 @@
  * thermistor falls out or temperature sensors fail in any way.
  *
  * The issue: If a thermistor falls out or a temperature sensor fails,
- * Marlin can no longer sense the actual temperature. Since a disconnected
+ * Marlin can no lonenger sense the actual temperature. Since a disconnected
  * thermistor reads as a low temperature, the firmware will keep the heater on.
  *
  * If you get "Thermal Runaway" or "Heating failed" errors the
